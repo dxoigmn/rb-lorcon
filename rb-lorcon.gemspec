@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.files         = [ 'lib/rb-lorcon.rb',
                       'ext/extconf.rb',
                       'ext/Lorcon.c',
-                      'ext/Lorcon.h'
-                      'ext/README'
+                      'ext/Lorcon.h',
+                      'ext/README',
                       'ext/test.rb' ]
   s.require_paths = [ 'lib' ]
   s.extensions    = [ 'ext/extconf.rb' ]

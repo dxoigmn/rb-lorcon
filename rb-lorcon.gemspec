@@ -5,12 +5,11 @@ Gem::Specification.new do |s|
   s.summary       = 'Simple lorcon wrapper.'
   s.homepage      = 'http://github.com/dxoigmn/rb-lorcon'
   s.description   = 'A simple lorcon wrapper.'
-  s.files         = [ 'lib/rb-lorcon.rb',
+  s.files         = [ 'README.markdown',
+                      'lib/rb-lorcon.rb',
                       'ext/extconf.rb',
                       'ext/Lorcon.c',
-                      'ext/Lorcon.h',
-                      'ext/README',
-                      'ext/test.rb' ]
+                      'ext/Lorcon.h' ]
   s.require_paths = [ 'lib' ]
   s.extensions    = [ 'ext/extconf.rb' ]
 end

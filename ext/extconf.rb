@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby
 require 'mkmf'
 
+dir_config("orcon")
+
 if (have_library("orcon", "tx80211_txpacket", "tx80211.h") or find_library("orcon", "tx80211_txpacket", "tx80211.h"))
 	create_makefile("Lorcon")
 else
